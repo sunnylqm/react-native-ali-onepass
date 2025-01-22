@@ -247,6 +247,7 @@ public class RNAliOnepassModule extends ReactContextBaseJavaModule implements To
                 .setDialogWidth(dialogWidth)
 //                .setDialogHeight(dialogHeight)
                 .setDialogBottom(false)
+                .setTapAuthPageMaskClosePage(true)
                 //.setDialogAlpha(82)
 //                .setLogoImgPath("ic_launcher")
                 .setScreenOrientation(authPageOrientation);
