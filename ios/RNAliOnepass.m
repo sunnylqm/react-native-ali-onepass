@@ -377,6 +377,7 @@ RCT_EXPORT_METHOD(setDialogUIConfig:(NSDictionary *)config resolve:(RCTPromiseRe
     NSLog(@"config = %@", config);
     tXCustomModel = [[TXCustomModel alloc] init];
     tXCustomModel.alertCornerRadiusArray = @[@10, @10, @10, @10];
+    tXCustomModel.tapAuthPageMaskClosePage = YES;
     // 状态栏
     NSString *statusBarHidden = [config objectForKey:[self methodName2KeyName:@"setStatusBarHidden"]];
     if (statusBarHidden != nil) {
